@@ -1,0 +1,157 @@
+.header_container {
+    width: 100%;
+    height: 100%;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar_div {
+    width: 25%;
+    height: 100%;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    background-color: var(--c-dark3);
+    border-radius: 8px;
+    gap: 0.3em;
+}
+
+.searchbar_div img {
+    height: 70%;
+    aspect-ratio: 1;
+}
+
+.searchbar_div input {
+    flex-grow: 1;
+    background-color: transparent !important;
+    outline: none;
+    border: none;
+    color: var(--c-light);
+}
+
+.searchbar_div input::placeholder {
+    color: var(--c-light);
+}
+
+.right_sec {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.circular_block {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.circular_block:hover {
+    transform: scale(1.2);
+}
+
+.circular_block:last-child {
+    margin-left: 2em;
+}
+
+.opt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-dark4);
+}
+
+.opt img {
+    height: 70%;
+    aspect-ratio: 1;
+}
+
+.profile_pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.menu_icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .searchbar_div {
+        width: 35%;
+    }
+
+    .right_sec {
+        display: none;
+    }
+
+    .menu_icon {
+        height: 50%;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu_icon img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .circular_block:last-child {
+        margin-left: 0;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    .searchbar_div {
+        width: 50%;
+    }
+
+    .menu_icon {
+        height: 50%;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu_icon img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .circular_block:last-child {
+        margin-left: 0;
+    }
+}
+
+.right_sec.active {
+    width: 20%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4em;
+    right: 1.5em;
+    background-color: var(--c-dark3);
+    border-radius: 8px;
+    padding: 1em;
+    gap: 1em;
+}
+
+.right_sec.active .circular_block {
+    height: 2em;
+    width: 2em;
+    aspect-ratio: auto;
+}

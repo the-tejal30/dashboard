@@ -1,0 +1,148 @@
+.NetProfit_Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.netprofit_right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.netprofit_left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.netprofit_left p {
+    font-size: 0.5em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.netProfit_txt {
+    width: 100%;
+    height: 40%;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.netProfit_amount {
+    width: 100%;
+    height: 30%;
+    font-size: 2em;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.netProfit_percentage {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.3em;
+}
+
+.netProfit_percentage img {
+    height: 50%;
+    aspect-ratio: 1;
+}
+
+.netProfit_percentage span {
+    font-size: 0.7em;
+    color: var(--c-lime);
+}
+
+@media (max-width: 800px) {
+    .NetProfit_Container {
+        gap: 1.5rem;
+        padding: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .NetProfit_Container {
+        padding: 1em;
+        height: auto;
+    }
+
+    .netprofit_right,
+    .netprofit_left {
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .netProfit_txt {
+        font-size: 1em;
+        text-align: center;
+        height: auto;
+    }
+
+    .netProfit_amount {
+        font-size: 2.5em;
+        justify-content: center;
+    }
+
+    .netProfit_percentage {
+        justify-content: center;
+    }
+
+    .netProfit_percentage img {
+        height: 1em;
+    }
+
+    .netProfit_percentage span {
+        font-size: 0.9em;
+    }
+
+    .netprofit_left p {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 480px) {
+    .NetProfit_Container {
+        flex-direction: column;
+        padding: 1em;
+        gap: 1rem;
+    }
+
+    .netprofit_left {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .netProfit_txt {
+        font-size: 1.2em;
+    }
+
+    .netProfit_amount {
+        font-size: 3em;
+    }
+
+    .netProfit_percentage img {
+        height: 1.2em;
+    }
+
+    .netProfit_percentage span {
+        font-size: 1em;
+    }
+
+    .netprofit_left p {
+        font-size: 0.8em;
+    }
+}

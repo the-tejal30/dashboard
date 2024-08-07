@@ -1,0 +1,26 @@
+:root {
+  --f-primary: 'Roboto', sans-serif;
+
+  --c-dark1: #202028;
+  --c-dark2: #151419;
+  --c-primary: #5973c0;
+  --c-dark3: #2a2b30;
+  --c-dark4: #48494e;
+  --c-light: #FFFFFF;
+  --c-blue1: #293368;
+  --c-green1: #155244;
+  --c-red1: #5f3237;
+  --c-red2: #5b2a4a;
+  --c-red3: #a24143;
+  --c-teal1: #214a60;
+  --c-grey: #8d8e97;
+  --c-teal2: #098966;
+  --c-blue3: #2b3365;
+  --c-lime: #6be952;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
