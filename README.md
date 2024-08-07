@@ -44,6 +44,8 @@ FitPeo Dashboard is a frontend web application designed to provide users with an
 
 4. Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
+5. ![Screenshot 2024-08-07 215544](https://github.com/user-attachments/assets/75b2ed24-e5ea-4390-bc1e-43aef6a37af7)
+
 
 ## Deployment
 
@@ -59,5 +61,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or feedback, please contact Tejal Wani at [tejalwani2000@gmail.com].
+For any questions or feedback, please contact Tejal Wani at tejalwani2000@gmail.com.
 
