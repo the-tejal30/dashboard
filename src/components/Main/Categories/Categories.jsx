@@ -1,12 +1,10 @@
 import React from 'react';
 import styles from '../Main.module.css';
+import data from '../../../Data/Data.json'
 
 const Categories = () => {
-    const categoriesData = [
-        { imgSrc: "/assets/location.png", text: "Goals", backgroundColor: "var(--c-red3)" },
-        { imgSrc: "/assets/burger.png", text: "Popular Dishes", backgroundColor: "var(--c-blue1)" },
-        { imgSrc: "/assets/cloche.png", text: "Menus", backgroundColor: "var(--c-teal1)" }  
-    ];
+
+    const { categoriesData } = data;
 
     return (
         <div className={styles.categories_container}>

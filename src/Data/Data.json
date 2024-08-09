@@ -1,0 +1,146 @@
+{
+    "blockItemsData": [
+      {
+        "imgSrc": "/assets/basket.png",
+        "imgText": "Total Orders",
+        "imgColor": "var(--c-blue1)",
+        "totalOrders": "75",
+        "percentage": 3,
+        "arrowImg": "/assets/green_up_arrow.png",
+        "percentageColor": "var(--c-teal2)"
+      },
+      {
+        "imgSrc": "/assets/bag_green.png",
+        "imgText": "Total Delivered",
+        "imgColor": "var(--c-green1)",
+        "totalOrders": "70",
+        "percentage": 3,
+        "arrowImg": "/assets/red_down_arrow.png",
+        "percentageColor": "var(--c-red3)"
+      },
+      {
+        "imgSrc": "/assets/red_bag.png",
+        "imgText": "Total Cancelled",
+        "imgColor": "var(--c-red1)",
+        "totalOrders": "05",
+        "percentage": 3,
+        "arrowImg": "/assets/green_up_arrow.png",
+        "percentageColor": "var(--c-teal2)"
+      },
+      {
+        "imgSrc": "/assets/price_down.png",
+        "imgText": "Total Revenue",
+        "imgColor": "var(--c-red2)",
+        "totalOrders": "$12k",
+        "percentage": 3,
+        "arrowImg": "/assets/red_down_arrow.png",
+        "percentageColor": "var(--c-red3)"
+      }
+    ],
+    "orders": [
+      {
+        "customer": "Jane Cooper",
+        "orderNo": "48965786",
+        "amount": "$365.02",
+        "status": "Delivered",
+        "imgSrc": "/assets/p1.png"
+      },
+      {
+        "customer": "Wade Warren",
+        "orderNo": "15478256",
+        "amount": "$124.00",
+        "status": "Delivered",
+        "imgSrc": "/assets/p3.png"
+      },
+      {
+        "customer": "Guy Hawkins",
+        "orderNo": "78958215",
+        "amount": "$45.88",
+        "status": "Cancelled",
+        "imgSrc": "/assets/p5.png"
+      },
+      {
+        "customer": "Kristin Watson",
+        "orderNo": "20965732",
+        "amount": "$65.00",
+        "status": "Pending",
+        "imgSrc": "/assets/p6.png"
+      },
+      {
+        "customer": "Cody Fisher",
+        "orderNo": "56489636",
+        "amount": "$268.00",
+        "status": "Delivered",
+        "imgSrc": "/assets/p9.png"
+      },
+      {
+        "customer": "Savannah Nguyen",
+        "orderNo": "41253685",
+        "amount": "$128.00",
+        "status": "Delivered",
+        "imgSrc": "/assets/p2.png"
+      }
+    ],
+    "feedbackData": [
+      {
+        "name": "Jenny Wilson",
+        "profileImg": "/assets/p7.png",
+        "stars": 4,
+        "review": "The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. I had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies."
+      },
+      {
+        "name": "Dianne Russell",
+        "profileImg": "/assets/p8.png",
+        "stars": 5,
+        "review": "We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee. Perfect service"
+      },
+      {
+        "name": "Devon Lane",
+        "profileImg": "/assets/p4.png",
+        "stars": 4,
+        "review": "Normally wings are wings, but theirs are lean, meaty, and tender, and absolutely divine! The flavor is rich and savory, and the texture is so tender it just falls off the bone. I've never had wings like these before - they're a game-changer! The lean meatiness makes them feel like a gourmet treat, and I'm hooked! I could eat them every day and never get tired of them. 10/10 would recommend!"
+      }
+    ],
+    "categoriesData": [
+      {
+        "imgSrc": "/assets/location.png",
+        "text": "Goals",
+        "backgroundColor": "var(--c-red3)"
+      },
+      {
+        "imgSrc": "/assets/burger.png",
+        "text": "Popular Dishes",
+        "backgroundColor": "var(--c-blue1)"
+      },
+      {
+        "imgSrc": "/assets/cloche.png",
+        "text": "Menus",
+        "backgroundColor": "var(--c-teal1)"
+      }
+    ],
+    "salesData": [
+      { "Name": 5, "Sales": 4000 },
+      { "Name": 9, "Sales": 9000 },
+      { "Name": 11, "Sales": 4500 },
+      { "Name": 13, "Sales": 3000 },
+      { "Name": 15, "Sales": 6000 },
+      { "Name": 17, "Sales": 6000 },
+      { "Name": 19, "Sales": 5100 },
+      { "Name": 21, "Sales": 5200 },
+      { "Name": 23, "Sales": 4900 },
+      { "Name": 25, "Sales": 3000 },
+      { "Name": 27, "Sales": 10000 },
+      { "Name": 29, "Sales": 5500 },
+      { "Name": 33, "Sales": 5700 },
+      { "Name": 35, "Sales": 5200 },
+      { "Name": 37, "Sales": 11000 },
+      { "Name": 39, "Sales": 15000 },
+      { "Name": 41, "Sales": 16000 },
+      { "Name": 43, "Sales": 12000 },
+      { "Name": 47, "Sales": 8000 },
+      { "Name": 49, "Sales": 4900 },
+      { "Name": 53, "Sales": 5200 },
+      { "Name": 55, "Sales": 12000 }
+    ]
+  }
+  
